@@ -1,9 +1,10 @@
-# PAY-ME BOT
+# 💸 PAYMENT QR GENERATOR TELEGRAM 💸
 
 A telegram bot that generates the qr for payment.
 
-## TABLE OF CONTENT
+## TABLE OF CONTENT 🍷
 
+- CHART
 - INTRODUCTION
 - FEATURES
 - PRE-REQUISITES
@@ -14,11 +15,17 @@ A telegram bot that generates the qr for payment.
 - CONTRIBUTING 
 - CONTACT
 
-## INTRODUCTION
+## CHART AND SCREENSHOTS
+
+![screenshot](<screenshot/Screenshot 2024-06-20 at 1.28.29 PM.png>)
+![screenshot](<screenshot/Screenshot 2024-06-20 at 1.27.24 PM.png>)
+![screenshot](<screenshot/Screenshot 2024-06-20 at 1.28.08 PM.png>)
+
+## INTRODUCTION 🙏
 
 PAY-ME BOT is a Telegram bot that allows users to generate payment QR codes by simply sending a message in a specified format. The bot processes the input and creates an order with a payment gateway, returning a link to the QR code that users can scan to complete their payment.
 
-## FEATURES
+## FEATURES 🔎
 
 - Welcome Message: When users start the bot, they receive a welcome message with instructions.
 
@@ -26,14 +33,14 @@ PAY-ME BOT is a Telegram bot that allows users to generate payment QR codes by s
 
 - QR Code Generation: The bot generates a payment QR code and sends the payment link back to the user.
 
-## PRE-REQUISITES
+## PRE-REQUISITES 📛
 
 - Node.js (version 14.x or later)
 - Ngrok
 - Telegram bot token
 - EKQR API GATEWAY key
 
-## INSTALLATION
+## INSTALLATION 🧑‍🔧
 
 1. Clone the repository:
     ```bash
@@ -56,7 +63,7 @@ Create a server-config.js file in the config directory with the following conten
     }
     ```
 
-## USAGE
+## USAGE 🚧
 
 1. Start the server:
     ```bash
@@ -76,7 +83,7 @@ Open Telegram and start a chat with your bot.
     amount, customer name, customer email, customer mobile
     ```
 
-## CODE EXPLANATION
+## CODE EXPLANATION 🔭
 
 ### Dependencies
 
@@ -140,7 +147,7 @@ Open Telegram and start a chat with your bot.
     }
     ```
 
-### QR Code Reply
+### QR Code Reply 🔐
 
     ```bash
     const qr = async (qr_url, ctx) => {
@@ -169,11 +176,11 @@ Open Telegram and start a chat with your bot.
     });
     ```
 
-## API CALL
+## API CALL 📲
 
 Used EKQR API gateway to manage the payment.
 
-## CONTRIBUTING 
+## CONTRIBUTING 🤝
 
 Contributions are most welcomed!
 Fork and open the pull request
@@ -184,3 +191,5 @@ Fork and open the pull request
 - **Email**: mendhehimanshu20@gmail.com
 
 
+
+🫡
