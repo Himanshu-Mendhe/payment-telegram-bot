@@ -14,8 +14,8 @@ const bot = new Telegraf(envVariables.BOT_ID);
 
 
 bot.start((ctx) => ctx.reply(
-`Hello and welcome to the PAY-ME BOT
-for the payment you want to do, write data in following format--
+`🙏 Hello and welcome to the PAY-ME BOT 🤑
+for the payment you want to do, write data in following format 🤝--
 amount,customer name, customer email, customer mobile`
 ))
 
@@ -62,9 +62,9 @@ const createOrder = async( user_amount, user_name, user_email, user_mobile_no, c
 const qr = async(qr_url, ctx) => {
     try {
         await ctx.reply(
-`click the following link to make the payment
+`ʘ click the following link to make the payment 💀
 ${qr_url}
-for further payments make `);
+for further payments write amount,customer name, customer email, customer mobile`);
     } catch (error) {
         console.log ("ERR-- error in fetching the qr", error)
     }
