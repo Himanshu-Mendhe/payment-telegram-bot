@@ -62,9 +62,9 @@ const createOrder = async( user_amount, user_name, user_email, user_mobile_no, c
 const qr = async(qr_url, ctx) => {
     try {
         await ctx.reply(
-    `click the following link to make the payment
-    ${qr_url}
-    for further payments make `);
+`click the following link to make the payment
+${qr_url}
+for further payments make `);
     } catch (error) {
         console.log ("ERR-- error in fetching the qr", error)
     }
