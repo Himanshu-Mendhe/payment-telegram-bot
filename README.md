@@ -18,8 +18,6 @@ A telegram bot that generates the qr for payment.
 ## CHART AND SCREENSHOTS
 
 ![screenshot](<screenshot/Screenshot 2024-06-20 at 1.28.29 PM.png>)
-![screenshot](<screenshot/Screenshot 2024-06-20 at 1.27.24 PM.png>)
-![screenshot](<screenshot/Screenshot 2024-06-20 at 1.28.08 PM.png>)
 
 ## INTRODUCTION 🙏
 
@@ -146,6 +144,7 @@ Open Telegram and start a chat with your bot.
     }
     }
     ```
+![screenshot](<screenshot/Screenshot 2024-06-20 at 1.27.24 PM.png>)
 
 ### QR Code Reply 🔐
 
@@ -162,6 +161,7 @@ Open Telegram and start a chat with your bot.
     }
     };
     ```
+![screenshot](<screenshot/Screenshot 2024-06-20 at 1.28.08 PM.png>)
 
 ### Server Setup
 
